@@ -10,7 +10,7 @@ The idea was to start with raw data, clean and organize it, and then turn it int
 
 For the structure, I followed the **Medallion Architecture** which has three layers:  
 
-![Data Architecture](docs/Architecture Diagram.png)
+![Data Architecture](docs/Architecture_Diagram.png)
 
 1. **Bronze Layer** – Stores raw data exactly as it comes from the source (I loaded CSV files into SQL Server).  
 2. **Silver Layer** – Cleans and standardizes data so it’s ready for analysis.  
