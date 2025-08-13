@@ -16,6 +16,7 @@ For the structure, I followed the **Medallion Architecture** which has three lay
 2. **Silver Layer** – Cleans and standardizes data so it’s ready for analysis.  
 3. **Gold Layer** – Contains the final, business-ready data in a **star schema** for fast and easy reporting.
 
+
 ---
 
 ## 📖 What I Worked On
@@ -47,6 +48,8 @@ Build a small-scale, real-world style data warehouse in SQL Server using sales d
 3. **Integration** – Combined data from both sources into a single, consistent data model.  
 4. **Data Modeling** – Built fact and dimension tables in the Gold layer.  
 5. **Analysis** – Ran SQL queries to get key business insights.
+
+![Data Flow](docs/data_flow.png)
 
 ---
 
